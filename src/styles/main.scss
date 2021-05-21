@@ -1,6 +1,7 @@
 @import 'override';
 @import 'utility';
 @import 'utility_colors';
+@import 'rsuite/dist/styles/rsuite-default.css';
 
 body {
   margin: 0;
@@ -36,7 +37,7 @@ body,
 
 .img-fullsize {
   * {
-    width: auto !important ;
+    width: auto !important;
     height: auto !important;
   }
 }
@@ -83,6 +84,7 @@ $chat-b: 65px;
     }
   }
 }
+
 
 .animate-blink {
   animation: blink normal 1.5s infinite ease-in-out;
