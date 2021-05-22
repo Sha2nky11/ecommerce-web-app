@@ -17,7 +17,7 @@ const Product = ({products}) => (
             <h3>{products.name}</h3>
             <div>${products.price}</div>
           </Col>
-          <Col xs={24} md={12}>
+          <Col xs={24}  md={12}>
             <Button
               onClick={() => {}}
               variant="contained"

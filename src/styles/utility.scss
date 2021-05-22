@@ -146,7 +146,7 @@ $indent_3: 15px;
 }
 
 .font-huge {
-  font-size: 100px;
+  font-size: 25px;
 }
 
 .contain-scroll {
@@ -245,4 +245,9 @@ $indent_3: 15px;
 
 .pb-3 {
   padding-bottom: $indent_3;
+}
+ 
+Link {
+  text-decoration: none;
+  color: black;
 }

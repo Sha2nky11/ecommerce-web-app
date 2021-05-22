@@ -1,5 +1,5 @@
 import React, { memo, useState } from 'react'
-import { Container ,Header,Row,Col,Grid,Footer} from 'rsuite';
+import { Container ,Row,Col,Grid,Footer} from 'rsuite';
 import KEYBOARDS from '../db/keyboards.json'
 import SideBar from '../component/SideBar'
 import ProductsKeyboards from '../component/ProductsKeyboards';
@@ -10,7 +10,6 @@ const KeyBoards = () => {
 
     return(
         <Container>
-          <Header> Header</Header>
         
           <Grid fluid className="h-100">
           <Row className="px-0">

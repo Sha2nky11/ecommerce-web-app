@@ -1,5 +1,5 @@
 import React, { memo, useState } from 'react'
-import { Container,Footer, Grid, Header,  Row,Col} from 'rsuite'
+import { Container,Footer, Grid,  Row,Col} from 'rsuite'
 import Products from '../component/Products'
 import SideBar from '../component/SideBar'
 import PRODUCTS from '../db/products.json'
@@ -12,9 +12,7 @@ const Home = () => {
 
     return(
     <Container>
-      <Header> Header</Header>
-    
-      <Grid fluid className="h-100">
+    <Grid fluid className="h-100">
       <Row className="px-0">
           <Col xs={24} md={8} className="h-100">              
          <SideBar/>

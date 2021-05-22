@@ -1,6 +1,7 @@
 import React from 'react'
 import { Switch } from 'react-router';
 import 'rsuite/dist/styles/rsuite-default.css'
+import NavBar from './component/NavBar';
 import PrivateRoute from './component/PrivateRoute';
 import PublicRoute from './component/PublicRoute';
 import { ProfileProvider } from './misc/profile.context';
@@ -13,6 +14,7 @@ function App() {
   return (
     <div>
     <ProfileProvider>
+      <NavBar/>
       <Switch>
       <PublicRoute path ="/signin"> 
         <SignIn />
